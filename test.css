@@ -1,0 +1,61 @@
+section.skills .container {
+  width: 50%;
+}
+section.skills .container .skill {
+  margin-bottom: 1rem;
+}
+section.skills .container .skill .head {
+  background-color: var(--skin-color);
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  color: var(--bg-black-900);
+  padding: 1.6rem;
+  cursor: pointer;
+}
+section.skills .container .skill .head h2 {
+  color: var(--bg-black-900);
+}
+section.skills .container .skill .head .left {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+section.skills .container .skill .item {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 1rem;
+  padding: 1.6rem;
+  background-color: rgb(177, 171, 171);
+  margin-bottom: 0.3rem;
+}
+section.skills .container .skill .item:hover {
+  background: var(--bg-black-100);
+}
+section.skills .container .skill .progress-area {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+section.skills .container .skill .progress-bar {
+  width: 100%;
+  height: 1rem;
+  background: var(--bg-black-900);
+}
+section.skills .container .skill .progress-bar .progress {
+  height: 100%;
+  width: 92%;
+  background: var(--skin-color);
+}
+section.skills .skill .items {
+  /*ito le mampilevona az*/
+  display: none;
+}
+section.skills .container .skills .items .show-items {
+  display: block;
+}
+.show-items{
+    display: none;
+}
