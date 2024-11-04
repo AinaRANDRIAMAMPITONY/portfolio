@@ -15,10 +15,19 @@ $(document).ready(function () {
   });
 });
 */
-function openPopup() {
-  document.getElementById("popup").style.display = "flex";
+function openPopup(title, badgeText, image1Src, image2Src, description) {
+  // Modifier le contenu du pop-up
+  document.getElementById('popup-title').innerText = title;
+  document.getElementById('popup-badge').innerText = badgeText;
+  document.getElementById('popup-image1').src = image1Src;
+  document.getElementById('popup-image2').src = image2Src;
+  document.getElementById('popup-description').innerText = description;
+  
+  // Afficher le pop-up
+  document.getElementById('popup').style.display = 'block';
 }
 
 function closePopup() {
-  document.getElementById("popup").style.display = "none";
+  // Cacher le pop-up
+  document.getElementById('popup').style.display = 'none';
 }

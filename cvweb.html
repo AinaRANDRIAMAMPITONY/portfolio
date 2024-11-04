@@ -436,54 +436,48 @@
                 <div class="contenu">
                   <h3>Aiza Apk</h3>
                   <p>Aiza est une application de gestion d'hébergements et de restaurants, permettant aux utilisateurs de découvrir, publier, et interagir avec des établissements à Antananarivo.</p>
-                  <button class="voir-plus"  onclick="openPopup()">Details</button>
+                  <button class="voir-plus" onclick="openPopup('Aiza Apk', 'WEB', './images/project1.jpg', './images/project2.jpg', 'Aiza est une application de gestion d\'hébergements et de restaurants, permettant aux utilisateurs de découvrir, publier, et interagir avec des établissements à Antananarivo.')">Details</button>
                 </div>
               </div>
+              
               <div class="projet">
                 <div class="badge">WEB</div>
-                <img src="./images/aina.jpg" alt="Projet Image" class="projet-image" />
+                <img src="./images/is2m.png" alt="Projet Image" class="projet-image" />
                 <div class="contenu">
-                  <h3>Titre du projet</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                  <button class="voir-plus">details</button>
+                  <h3>Is2m pointage</h3>
+                  <p>L'application IS2M Pointage est une solution mobile développée pour faciliter le pointage des étudiants au sein d'un institut supérieur. Ce projet a été conçu pour répondre aux besoins d'efficacité et de précision dans la gestion des présences, tout en offrant une interface utilisateur conviviale.</p>
+                  <button class="voir-plus" onclick="openPopup('Projet 2', 'WEB', './images/project3.jpg', './images/project4.jpg', 'Description pour Projet 2.')">Details</button>
                 </div>
               </div>
-              <div class="projet">
-                <div class="badge">WEB</div>
-                <img src="./images/aina.jpg" alt="Projet Image" class="projet-image" />
-                <div class="contenu">
-                  <h3>Titre du projet</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                  <button class="voir-plus">details</button>
-                </div>
-              </div>
+              
+              <!-- Ajouter plus de projets ici -->
             </div>
+            
             <!-- Popup -->
             <div id="popup" class="popup">
               <div class="popup-content">
                 <span class="close" onclick="closePopup()">&times;</span>
-                <h2>Explore World</h2>
-                <div class="badge">WEB</div>
+                <h2 id="popup-title">Titre du projet</h2>
+                <div class="badge" id="popup-badge">WEB</div>
                 <button class="visit-button">Visiter <i class="external-link-icon">🔗</i></button>
                 
                 <div class="popup-images">
-                  <img src="./images/project1.jpg" alt="Project Screenshot 1" />
-                  <img src="./images/project2.jpg" alt="Project Screenshot 2" />
+                  <img id="popup-image1" src="./images/project1.jpg" alt="Project Screenshot 1" />
+                  <img id="popup-image2" src="./images/project2.jpg" alt="Project Screenshot 2" />
                 </div>
                 
                 <div class="popup-description">
                   <h3>Description</h3>
-                  <p>
-                    Ce projet contient des listes de nationalités et de langues existant
-                    dans le monde. Elles sont regroupées et peuvent être utilisées par
-                    tout le monde en appelant l'API REST.
+                  <p id="popup-description">
+                    Description du projet.
                   </p>
                 </div>
                 
                 <!-- Bouton de fermeture supplémentaire -->
                 <button class="close-button" onclick="closePopup()">Fermer</button>
               </div>
-            </div>          
+            </div>
+            
         </section>
         <!--Portfolio section End-->
         <!--Contact section start-->
