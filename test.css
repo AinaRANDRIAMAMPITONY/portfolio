@@ -1,3 +1,4 @@
+
 section.skills .container {
   width: 50%;
 }
@@ -59,3 +60,10 @@ section.skills .container .skills .items .show-items {
 .show-items{
     display: none;
 }
+/*
+.portfolio-image img {
+  max-width: 100%;
+  height: auto; 
+  object-fit: cover; 
+}
+*/

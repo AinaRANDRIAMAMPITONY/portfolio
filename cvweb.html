@@ -429,57 +429,61 @@
                 <h2>Mes derniers projet :</h2>
               </div>
             </div>
-            <div class="row">
-              <!--Portfolio item start-->
-              <div class="portfolio-item padd-15">
-                <div class="portfolio-item-inner shadow-dark">
-                  <div class="portfolio-image">
-                    <img src="./images/couver.jpg" />
-                    <div class="portfolio-box">
-                      <h4>Web Design</h4>
-                      <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit
-                      </p>
-                      <a href="#"><i class="fa fa-home"></i></a>
-                    </div>
-                  </div>
+            <div class="containpro">
+              <div class="projet">
+                <div class="badge">WEB</div>
+                <img src="./images/apkAiza.png" alt="Projet Image" class="projet-image" />
+                <div class="contenu">
+                  <h3>Aiza Apk</h3>
+                  <p>Aiza est une application de gestion d'hébergements et de restaurants, permettant aux utilisateurs de découvrir, publier, et interagir avec des établissements à Antananarivo.</p>
+                  <button class="voir-plus"  onclick="openPopup()">Details</button>
                 </div>
               </div>
-              <!--Portfolio item End-->
-              <!--Portfolio item start-->
-              <div class="portfolio-item padd-15">
-                <div class="portfolio-item-inner shadow-dark">
-                  <div class="portfolio-image">
-                    <img src="./images/couver.jpg" />
-                    <div class="portfolio-box">
-                      <h4>Web Design</h4>
-                      <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit
-                      </p>
-                      <a href="#"><i class="fa fa-home"></i></a>
-                    </div>
-                  </div>
+              <div class="projet">
+                <div class="badge">WEB</div>
+                <img src="./images/aina.jpg" alt="Projet Image" class="projet-image" />
+                <div class="contenu">
+                  <h3>Titre du projet</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                  <button class="voir-plus">details</button>
                 </div>
               </div>
-              <!--Portfolio item End-->
-              <!--Portfolio item start-->
-              <div class="portfolio-item padd-15">
-                <div class="portfolio-item-inner shadow-dark">
-                  <div class="portfolio-image">
-                    <img src="./images/couver.jpg" />
-                    <div class="portfolio-box">
-                      <h4>Web Design</h4>
-                      <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit
-                      </p>
-                      <a href="#"><i class="fa fa-home"></i></a>
-                    </div>
-                  </div>
+              <div class="projet">
+                <div class="badge">WEB</div>
+                <img src="./images/aina.jpg" alt="Projet Image" class="projet-image" />
+                <div class="contenu">
+                  <h3>Titre du projet</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                  <button class="voir-plus">details</button>
                 </div>
               </div>
-              <!--Portfolio item End-->
             </div>
-          </div>
+            <!-- Popup -->
+            <div id="popup" class="popup">
+              <div class="popup-content">
+                <span class="close" onclick="closePopup()">&times;</span>
+                <h2>Explore World</h2>
+                <div class="badge">WEB</div>
+                <button class="visit-button">Visiter <i class="external-link-icon">🔗</i></button>
+                
+                <div class="popup-images">
+                  <img src="./images/project1.jpg" alt="Project Screenshot 1" />
+                  <img src="./images/project2.jpg" alt="Project Screenshot 2" />
+                </div>
+                
+                <div class="popup-description">
+                  <h3>Description</h3>
+                  <p>
+                    Ce projet contient des listes de nationalités et de langues existant
+                    dans le monde. Elles sont regroupées et peuvent être utilisées par
+                    tout le monde en appelant l'API REST.
+                  </p>
+                </div>
+                
+                <!-- Bouton de fermeture supplémentaire -->
+                <button class="close-button" onclick="closePopup()">Fermer</button>
+              </div>
+            </div>          
         </section>
         <!--Portfolio section End-->
         <!--Contact section start-->
